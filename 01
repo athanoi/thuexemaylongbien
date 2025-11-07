@@ -1,0 +1,162 @@
+Bạn là trình tạo HTML one-file.
+
+NHIỆM VỤ:
+Tạo đúng 1 file `index.html` (HTML + CSS + JS nội tuyến, không tách file).  
+Không dùng jQuery, không Bootstrap, không gọi API.  
+Chỉ dùng font từ CDN (Inter + Material Symbols Rounded + Font Awesome 6 Free).  
+Toàn bộ JS bọc trong IIFE, đặt trước `</body>`, dùng `defer`.  
+Văn bản tiếng Việt tự nhiên, KHÔNG chứa “ạ/nhé/nha”.
+
+# ===================== SEO / META =====================
+TITLE="Liên Hệ   Thuê xe máy  – Nguyễn Tú"
+DESCRIPTION=" thuê xe máy tại Hoàn Kiếm, Hà Nội. Xe số, xe ga, xe 50cc, xe điện. Giao tận nơi 20–40’, cọc nhẹ, hỗ trợ 24/7."
+KEYWORDS="thuê xe máy Hoàn Kiếm, thuê xe máy Hà Nội, xe ga, xe số, xe điện, thuê xe máy Nguyễn Tú, cho thuê xe máy giá rẻ"
+PHONE="0942467674"
+ZALO="https://zalo.me/0942467674"
+MAP="https://maps.app.goo.gl/SR1hcwnCQjPkAvDh7?g_st=ipc"
+EMAIL="contact@example.com"
+ADDRESS="112 Nguyễn Văn Cừ, Long Biên, Hà Nội"
+LOGO_URL="https://thuexemaynguyentu.com/wp-content/uploads/2025/09/cropped-Thue-xe-may-min-1-1.png"
+OG_IMAGE="https://thuexemaynguyentu.com/wp-content/uploads/2025/09/BANNER-THUE-XE-MAY-1.png"
+
+# ===================== STYLE / GIAO DIỆN =====================
+STYLE_PRESET="ProUltraTitanBlue"
+ACCENT="#0A84FF"
+ACCENT2="#1B5FFF"
+RADIUS="18px"
+LANG="vi"
+
+# ===================== TÙY CHỌN TÍNH NĂNG =====================
+USE_CHAT=true
+USE_QUICKCALL=true
+USE_PRODUCTS=true
+USE_CARD_TILT=true
+USE_SCROLL_ANIM=true
+USE_VIEW_TRANSITIONS=true
+USE_GALLERY_LIGHTBOX=true
+USE_PARALLAX=false
+USE_CONTACT_FORM=true
+USE_MAP_EMBED=true
+
+# ===================== MENU CHÍNH =====================
+MENU = [
+  {"🏠 Trang chủ": "index.html"},
+  {"📄 Giới thiệu": "gioithieu.html"},
+  {"⚙️ Dịch vụ": [
+      {"📑 Thủ tục": "thutuc.html"},
+      {"🛵 Loại xe": "loaixe.html"},
+      {"📘 Hướng dẫn": "huongdan.html"},
+      {"💡 Kinh nghiệm": "kinhnghiem.html"},
+      {"📍 Địa điểm": "diadiem.html"},
+      {"⚙️ Quy trình": "quytrinh.html"},
+      {"🎁 Ưu đãi": "uudai.html"},
+      {"💰 Giảm giá": "giamgia.html"},
+      {"📰 Blog": "https://motoopen.github.io/thuexemayohoankiem/blog.html"}
+  ]},
+  {"🏷️ Bảng giá": "banggia.html"},
+  {"💬 Liên hệ": "lienhe.html"}
+]
+
+# ===================== MỤC HỖ TRỢ (FOOTER) =====================
+SUPPORT_MENU = [
+  {"❓ FAQ": "faq.html"},
+  {"📜 Chính sách thuê xe": "chinhsach.html"},
+  {"⚖️ Điều khoản dịch vụ": "dieukhoan.html"},
+  {"🔒 Bảo mật thông tin": "baomat.html"}
+]
+
+# ===================== HERO =====================
+- Gradient xanh titan (#0A84FF → #1B5FFF → #111826).  
+- H1: ⭐ THUÊ XE MÁY HOÀN KIẾM, HÀ NỘI – NGUYỄN TÚ  
+- Mô tả: 📍 Xe mới, giao nhanh, giá hợp lý, hỗ trợ 24/7.  
+- CTA:  
+  - 📞 Gọi ngay → tel:0942467674  
+  - 💬 Chat Zalo → ZALO  
+- Chips: ⚡ Giao nhanh 20’, 💰 Cọc nhẹ, 🛵 Xe ga/xe số, 🚚 Giao tận nơi.  
+- Mini-form “🧭 Gợi ý lịch trình” (3 input + nút Gợi ý).
+
+# ===================== SECTION CHÍNH =====================
+1️⃣ Vì sao chọn chúng tôi — 6 lợi ích (verified, headset_mic, location_on, workspace_premium, shield, timer).  
+2️⃣ Dịch vụ nổi bật — Card tilt + CTA “Xem chi tiết” → `dichvu.html`.  
+3️⃣ Bảng giá tóm tắt — CTA “Xem bảng giá chi tiết” → `banggia.html`.  
+4️⃣ Quy trình thuê xe — 4 bước animation fade-slide.  
+5️⃣ Gallery ảnh thực tế — Lightbox (lazy-load).  
+6️⃣ Đánh giá khách hàng — Slider ⭐⭐⭐⭐⭐ (3 người, feedback thực).  
+7️⃣ Cam kết & bảo hành — đoạn ngắn + link `chinhsach.html`.
+
+# ===================== FOOTER (6 CỘT + FORM LIÊN HỆ + GOOGLE MAP) =====================
+- Footer nền Titan Blue Gradient (#0A0A1A → #0B1A3C), chữ trắng ánh bạc.  
+- 6 cột căn giữa:
+  1️⃣ 🏢 Về chúng tôi → `gioithieu.html`  
+  2️⃣ ⚙️ Dịch vụ → `dichvu.html`, `loaixe.html`, `uudai.html`, `giamgia.html`  
+  3️⃣ 🏷️ Bảng giá → `banggia.html`  
+  4️⃣ 📞 Liên hệ →  
+      - ☎️ PHONE  
+      - 💬 ZALO  
+      - 🗺️ MAP  
+      - ✉️ EMAIL  
+      - 🕓 Giờ: 8:00–21:00  
+      - 📰 Blog → https://motoopen.github.io/thuexemayohoankiem/blog.html  
+  5️⃣ 🛡️ Hỗ trợ → (SUPPORT_MENU)  
+  6️⃣ 📬 Gửi liên hệ nhanh:
+      - Input: Họ tên, Số điện thoại, Nội dung.  
+      - Nút “Gửi liên hệ” (mailto:EMAIL hoặc alert cảm ơn).  
+- Dưới form:  
+  🗺️ Google Map embed:  
+  ```html
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.911206107162!2d105.8702598!3d21.035704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9dd5f4cc73%3A0xdda6d835d7e1e1d5!2zMTEyIE5ndXnhu4VuIFbEg24gQ-G7qywgQ-G7rWEgRMSDbmcgTGEsIExvbmcgQmnDqm4sIEjDoCBO4buZaQ!5e0!3m2!1svi!2s!4v1700000000000!5m2!1svi!2s"
+    width="100%" height="300" style="border:0;border-radius:12px;margin-top:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+THÊM 4 liên kết nội bộ ở phù hợp cho trang
+
+
+	•	Cuối cùng:
+©  Nguyễn Tú Motorbike Rental · “⬆️ Lên đầu trang”.
+	•	Nút 🌞/🌙 đổi theme TitanBlue realtime.
+
+===================== QUICKCALL (BÊN TRÁI) =====================
+	•	Dock trái giữa màn hình (glass blur Titan).
+	•	Nút tròn icon to:
+📞 tel:PHONE
+💬 ZALO
+📍 MAP
+	•	Né chatbot bên phải, tự ẩn khi bàn phím bật.
+
+===================== MẠNG XÃ HỘI =====================
+
+SOCIAL_LINKS = [
+“https://m.facebook.com/chothuexemay0857255868/”,
+“https://m.facebook.com/chothuexemayphocohanoi/”,
+“https://m.facebook.com/thuexemayhanoigiare/”,
+“https://www.tripadvisor.com/Attraction_Review-g21333608-d9826317-Reviews-Nguyen_Tu_Motorbike_Rental-Long_Bien_Hanoi.html”,
+“https://www.instagram.com/nguyentumotorbike/”,
+“https://thuexemaynguyentu.com”
+]
+
+===================== HIỆU ỨNG =====================
+	•	Card tilt GPU, hover phản sáng xanh titan.
+	•	Scroll animation mềm.
+	•	ViewTransition fade.
+	•	Input glass blur, outline #0A84FF.
+	•	Footer phản sáng bạc khi hover icon.
+	•	Responsive hoàn chỉnh, iOS safe-area.
+
+===================== NHÚNG CHATBOT =====================
+
+
+<!-- 🧠 MotoAI SmartTone Deep — Chat Assistant -->
+
+
+<script>
+  window.MotoAI_CONFIG = {
+    brand: "Nguyễn Tú Motorbike Rental",
+    phone: "0942467674",
+    zalo: "https://zalo.me/0942467674",
+    whatsapp: "https://wa.me/84942467674",
+    map: "https://maps.app.goo.gl/SR1hcwnCQjPkAvDh7?g_st=ipc",
+    theme: "auto",
+    color: "#0A84FF"
+  };
+</script>
+<script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v36_smarttone_deep.js"></script>
