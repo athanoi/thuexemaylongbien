@@ -70,11 +70,11 @@ MENU_CHINH = [
 2️⃣ Dịch vụ nổi bật — Card tilt + CTA “Xem chi tiết” → `dichvu.html`.  
 3️⃣ Bảng giá tóm tắt — CTA “Xem bảng giá chi tiết” → `banggia.html`.  
 4️⃣ Quy trình thuê xe — 4 bước animation fade-slide.  
-5️⃣ Gallery ảnh thực tế — Lightbox (lazy-load).  
-6️⃣ Đánh giá khách hàng — Slider ⭐⭐⭐⭐⭐ (3 người, feedback thực).  
-7️⃣ Cam kết & bảo hành — đoạn ngắn + link `chinhsach.html`.
+ 5️⃣ Đánh giá khách hàng — Slider ⭐⭐⭐⭐⭐ (3 người, feedback thực).  
+6️⃣ Faq: Hỏi đáp 5 câu
+ 7️⃣điều khoả sử dụng
+8️⃣ chính sách bảo mật
 
-# ===================== FOOTER (6 CỘT + FORM LIÊN HỆ + GOOGLE 
 FOOTER = {
   "column_1_tagline": {
     "title": "Thuê xe máy uy tín tại Hà Nội",
@@ -96,20 +96,9 @@ FOOTER = {
 
   "column_4_contact": {
     "form_fields": ["Họ tên", "Số điện thoại", "Nội dung"],
-    "social_links": https://motoopen.github.io/chothuexemayhanoi/
-
-https://motoopen.github.io/thuexemayohoankiem/
-
-https://thuexemaynguyentu.com
-
-https://www.tripadvisor.com.vn/Attraction_Review-g21333608-d9826317-Reviews-Nguyen_Tu_Motorbike_Rental-Long_Bien_Hanoi.html
-
-https://thuexemaynguyentu.com
-https://www.youtube.com/channel/UCvUBwV24U4c5-q1iJ-ZL0Rg
-
+    "social_links": ["Facebook", "Zalo", "TikTok", "YouTube"]
   }
 }
-
 
 	•	Cuối cùng:
 ©  Nguyễn Tú Motorbike Rental · “⬆️ Lên đầu trang”.
@@ -125,14 +114,21 @@ https://www.youtube.com/channel/UCvUBwV24U4c5-q1iJ-ZL0Rg
 
 ===================== MẠNG XÃ HỘI =====================
 
-SOCIAL_LINKS = [
-“https://m.facebook.com/chothuexemay0857255868/”,
-“https://m.facebook.com/chothuexemayphocohanoi/”,
-“https://m.facebook.com/thuexemayhanoigiare/”,
-“https://www.tripadvisor.com/Attraction_Review-g21333608-d9826317-Reviews-Nguyen_Tu_Motorbike_Rental-Long_Bien_Hanoi.html”,
-“https://www.instagram.com/nguyentumotorbike/”,
-“https://thuexemaynguyentu.com”
-]
+SOCIAL_LINKS 
+
+https://motoopen.github.io/chothuexemayhanoi/
+
+https://motoopen.github.io/thuexemayohoankiem/
+
+https://thuexemaynguyentu.com
+
+https://www.tripadvisor.com.vn/Attraction_Review-g21333608-d9826317-Reviews-Nguyen_Tu_Motorbike_Rental-Long_Bien_Hanoi.html
+
+https://thuexemaynguyentu.com
+https://www.youtube.com/channel/UCvUBwV24U4c5-q1iJ-ZL0Rg
+https://www.instagram.com/thuexemaynguyentu/
+https://www.pinterest.com/thuexemaynguyentu/
+https://www.instagram.com/thuexemaynguyentu/
 
 ===================== HIỆU ỨNG =====================
 	•	Card tilt GPU, hover phản sáng xanh titan.
@@ -144,6 +140,8 @@ SOCIAL_LINKS = [
 
 ===================== NHÚNG CHATBOT =====================
 
+<!-- Nạp bản v38.1 (semantic) từ link bạn cung cấp -->
+  <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_debug_semantic_pricing.js" defer></script>
+  <!-- /MotoAI -->
 
-<!-- 🧠 MotoAI SmartTone Deep — Chat Assistant -->
 
