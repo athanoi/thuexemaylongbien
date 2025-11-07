@@ -14,8 +14,9 @@ KEYWORDS="thuê xe máy Hoàn Kiếm, thuê xe máy Hà Nội, xe ga, xe số, x
 PHONE="0942467674"
 ZALO="https://zalo.me/0942467674"
 MAP="https://maps.app.goo.gl/SR1hcwnCQjPkAvDh7?g_st=ipc"
-EMAIL="contact@example.com"
+EMAIL="thuexemaynguyentu@gmail.com"
 ADDRESS="112 Nguyễn Văn Cừ, Long Biên, Hà Nội"
+ADDRESS="Ngõ Hài Tượng, Phố Cổ, Hoàm Kiếm, Hà Nội"
 LOGO_URL="https://thuexemaynguyentu.com/wp-content/uploads/2025/09/cropped-Thue-xe-may-min-1-1.png"
 OG_IMAGE="https://thuexemaynguyentu.com/wp-content/uploads/2025/09/BANNER-THUE-XE-MAY-1.png"
 
@@ -67,7 +68,7 @@ SUPPORT_MENU = [
 
 # ===================== HERO =====================
 - Gradient xanh titan (#0A84FF → #1B5FFF → #111826).  
-- H1: ⭐ THUÊ XE MÁY HOÀN KIẾM, HÀ NỘI – NGUYỄN TÚ  
+- H1: ⭐ CHO THUÊ XE MÁY HÀ NỘI – NGUYỄN TÚ  
 - Mô tả: 📍 Xe mới, giao nhanh, giá hợp lý, hỗ trợ 24/7.  
 - CTA:  
   - 📞 Gọi ngay → tel:0942467674  
@@ -147,16 +148,3 @@ SOCIAL_LINKS = [
 
 <!-- 🧠 MotoAI SmartTone Deep — Chat Assistant -->
 
-
-<script>
-  window.MotoAI_CONFIG = {
-    brand: "Nguyễn Tú Motorbike Rental",
-    phone: "0942467674",
-    zalo: "https://zalo.me/0942467674",
-    whatsapp: "https://wa.me/84942467674",
-    map: "https://maps.app.goo.gl/SR1hcwnCQjPkAvDh7?g_st=ipc",
-    theme: "auto",
-    color: "#0A84FF"
-  };
-</script>
-<script defer src="https://motoopen.github.io/chothuexemayhanoi/motoai_v36_smarttone_deep.js"></script>
