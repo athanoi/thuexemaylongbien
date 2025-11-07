@@ -42,17 +42,17 @@ USE_MAP_EMBED=true
 # ===================== MENU CHÍNH =====================
 
 MENU_CHINH = [
-  {"🏠 Trang chủ": "index.html"},
-  {"📄 Giới thiệu": "gioithieu.html"},
-  {"🏷️ Bảng giá": "banggia.html"},
-  {"❓ FAQ": "faq.html"},
+  {"🏠 Trang chủ": "#home"},
+  {"📄 Giới thiệu": "#gioithieu"},
+  {"🏷️ Bảng giá": "#banggia"},
+  {"❓ FAQ": "#faq"},
   {
     "⚖️ Chính sách & Điều khoản": [
-      {"📜 Chính sách thuê xe": "chinhsach.html"},
-      {"⚖️ Điều khoản dịch vụ": "dieukhoan.html"}
+      {"📜 Chính sách thuê xe": "#chinhsach"},
+      {"⚖️ Điều khoản dịch vụ": "#dieukhoan"}
     ]
   },
-  {"💬 Liên hệ": "lienhe.html"}
+  {"💬 Liên hệ": "#lienhe"}
 ]
 
 # ===================== HERO =====================
@@ -82,26 +82,26 @@ FOOTER = {
   },
 
   "column_2_links": [
-    {"🏠 Trang chủ": "index.html"},
-    {"📄 Giới thiệu": "gioithieu.html"},
-    {"🏷️ Bảng giá": "banggia.html"}
+    {"🏠 Trang chủ": "#home"},
+    {"📄 Giới thiệu": "#gioithieu"},
+    {"🏷️ Bảng giá": "#banggia"}
   ],
 
   "column_3_links": [
-    {"❓ FAQ": "faq.html"},
-    {"📜 Chính sách thuê xe": "chinhsach.html"},
-    {"⚖️ Điều khoản dịch vụ": "dieukhoan.html"},
-    {"💬 Liên hệ": "lienhe.html"}
+    {"❓ FAQ": "#faq"},
+    {"📜 Chính sách thuê xe": "#chinhsach"},
+    {"⚖️ Điều khoản dịch vụ": "#dieukhoan"},
+    {"💬 Liên hệ": "#lienhe"}
   ],
 
   "column_4_contact": {
     "form_fields": ["Họ tên", "Số điện thoại", "Nội dung"],
-    "social_links": ["Facebook", "Zalo", "TikTok", "YouTube"]
+    "social_links"
   }
 }
 
 	•	Cuối cùng:
-©  Nguyễn Tú Motorbike Rental · “⬆️ Lên đầu trang”.
+©  Nguyễn Tú  · “⬆️ Lên đầu trang”.
 	•	Nút 🌞/🌙 đổi theme TitanBlue realtime.
 
 ===================== QUICKCALL (BÊN TRÁI) =====================
