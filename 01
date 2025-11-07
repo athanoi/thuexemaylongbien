@@ -144,4 +144,18 @@ https://www.instagram.com/thuexemaynguyentu/
   <script src="https://motoopen.github.io/chothuexemayhanoi/motoai_v38_1_debug_semantic_pricing.js" defer></script>
   <!-- /MotoAI -->
 
+•	Tự nhận biết page active
+	•	Footer chia 6 cột glass grid, có quickcall mini
+	•	Light/Dark mode tự động, có nút ☀️/🌙 góc phải
+	•	Accent đồng bộ với theme (theo AUTO_ACCENT_PALETTE)
+	•	Ripple, fade-in, hover glow, tilt nhẹ, scroll mượt
+	•	Responsive & SEO hợp lệ
+
+Mục tiêu: 1 khối Ultra App liền mạch = Menu + Hero + QuickCall (glassmorphism cao cấp, dark/light, mượt trên mọi kích thước).
+
+	•	Hero: multi-layer glass, không ảnh nền, gradient động + radial highlights; chữ cascade; CTA gradient (ripple + tilt); khi cuộn hero fade → header chuyển sang glass/translucent.
+	•	QuickCall: nút tròn bên trái, glass blur đa tầng, glow nhẹ, ripple; mở trượt 4 nút (Gọi, Zalo, Bản đồ, WhatsApp) với icon; accent theo theme; trap focus khi cần.
+	•	Đồng bộ: chia sẻ biến theme (--accent, radii, glass blur), cùng timing transition; dark/light toggle lưu localStorage (mặc định theo prefers-color-scheme).
+	•	A11y & perf: keyboard nav, visible focus, contrast ok, prefers-reduced-motion giảm hiệu ứng; tắt tilt/blur nặng trên thiết bị yếu.
+	
 
